@@ -1,0 +1,16 @@
+.dialog-container {
+    text-align: right;
+    padding: 16px; /* Add padding for content separation */
+  }
+  
+  .dialog-actions {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    margin-top: 16px; /* Add margin for separation from content */
+  }
+  
+  .delete-button {
+    background-color: red; /* Change background color */
+    color: white; /* Change text color */
+  }
+  

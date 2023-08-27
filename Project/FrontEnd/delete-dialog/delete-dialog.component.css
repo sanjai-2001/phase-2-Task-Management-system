@@ -1,0 +1,63 @@
+/* h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .dialog-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  @media (min-width: 992px) {
+    main {
+      margin-left: 270px;
+    }
+  }
+  
+  
+  #main{
+      padding: 16px;
+     
+      margin-top: 80px;
+      
+      margin-left: 270px;
+      
+  }
+  .head{
+    padding: 80px;
+  }
+   */
+
+   /* .dialog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 150px; 
+  }
+  
+  .dialog-actions {
+    margin-top: 16px; 
+    display: flex;
+    justify-content: space-between;
+  } */
+  
+ /* your-component.component.css */
+.dialog-container {
+  text-align: right;
+  padding: 16px; /* Add padding for content separation */
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  margin-top: 16px; /* Add margin for separation from content */
+}
+
+.delete-button {
+  background-color: red; /* Change background color */
+  color: white; /* Change text color */
+}

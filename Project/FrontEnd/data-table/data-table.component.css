@@ -1,0 +1,95 @@
+/* Your existing CSS styles */
+@media (min-width: 992px) {
+  main {
+    margin-left: 270px;
+  }
+}
+
+#main {
+  padding: 16px;
+  margin-left: 270px;
+}
+
+.head {
+  padding: 80px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-input {
+  margin-bottom: 20px;
+}
+
+.mat-elevation-z8 {
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.mat-table {
+  width: 100%;
+}
+
+.mat-header-cell,
+.mat-cell {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.mat-header-cell {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.mat-cell {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  color: black !important;
+}
+
+.mat-icon-button {
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mat-icon-button:hover {
+  background-color: #f0f0f0;
+}
+
+.mat-paginator {
+  margin-top: 20px;
+}
+
+.edit-button {
+  color: #4070f4; /* Custom color for the edit button */
+}
+
+.red-button {
+  color: red; /* You can adjust this color as needed */
+}
+
+.export-button {
+  margin-top: 10px;
+  background-color: #1976d2 !important;
+  color: white !important;
+  padding: 6px 12px !important;
+  font-size: 14px !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+  width: auto !important;
+}
+
+.export-button:hover {
+  background-color: #1565c0 !important;
+}

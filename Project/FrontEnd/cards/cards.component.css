@@ -1,0 +1,19 @@
+@media (min-width: 992px) {
+    main {
+      margin-left: 270px;
+    }
+  }
+  
+  
+  #main{
+      padding: 16px;
+     
+      margin-top: 80px;
+      
+      margin-left: 270px;
+      
+  }
+  .head{
+    padding: 80px;
+  }
+  

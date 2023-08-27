@@ -1,0 +1,28 @@
+<!-- <div class="dialog-container">
+    <h2>Confirm Deletion</h2>
+    <p>Are you sure you want to delete {{ data }}?</p>
+    <div class="dialog-actions">
+      <button mat-raised-button color="warn" (click)="confirmDelete()">Delete</button>
+      <button mat-button (click)="cancel()">Cancel</button>
+    </div>
+  </div>
+   -->
+
+   <!-- <div class="dialog-container">
+    <h2>Confirm Deletion</h2>
+    <p>Are you sure you want to delete {{ data }}?</p>
+    <div class="dialog-actions">
+      <button mat-raised-button style="background-color: red; color: white; margin-right: 10px;" (click)="confirmDelete()">Delete</button><br>
+      <button mat-button style="background-color: blue; color: white;" (click)="cancel()">Cancel</button>
+    </div>
+  </div>
+   -->
+   <div class="dialog-container">
+    <h2>Confirm Deletion</h2>
+    <p>Are you sure you want to delete task with ID {{ data }}?</p>
+    <div class="dialog-actions">
+      <button mat-raised-button style="background-color: red; color: white; margin-right: 10px;" (click)="confirmDelete(data)">Delete</button><br>
+      <button mat-button style="background-color: blue; color: white;" (click)="cancel()">Cancel</button>
+    </div>
+  </div>
+  
